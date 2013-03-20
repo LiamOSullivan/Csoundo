@@ -336,6 +336,14 @@ public class Csoundo{
         if(compiledOK)
         callbackWrapper.messageQueue.addMessageToChannelQueue(chn, value);
     }
+    
+    /**
+     * Integer version  of the above
+     */
+    public void setChn(String chn, int value) {
+        if(compiledOK)
+        callbackWrapper.messageQueue.addMessageToChannelQueue(chn, value);
+    }
 
     /**
      * Sets the string of the specified chn bus.
